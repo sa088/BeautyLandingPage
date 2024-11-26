@@ -1,0 +1,58 @@
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+    .headerTagline {
+        background: #F5D7FF;
+        text-align: center;
+        font-family: Montserrat;
+        padding: 10px;
+        letter-spacing: 2px;
+    }
+
+    .headerNavbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 50px;
+        font-family: Sansation Light;
+
+        .logo {
+            display: flex;
+        }
+
+        .navBar {
+            display: flex;
+            align-items: center;
+            list-style-type: none;
+            padding: 0;
+            gap: 40px;
+
+            .navItem {
+                .navLink {
+                    padding: 10px;
+                    text-decoration: none;
+                    color: #000000;
+                    border-radius: 5px;
+
+                    &:hover {
+                        background: #855398;
+                        color: #FFFFFF;
+                    }
+                }
+            }
+        }
+
+        .button {
+            font-family: Sansation Light;
+            background-color: #000000;
+            color: #FFFFFF;
+            border: 1px solid #000000;
+            padding: 12px 24px;
+            font-size: 16px;
+        }
+    }
+}

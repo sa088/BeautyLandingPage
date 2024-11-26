@@ -1,0 +1,43 @@
+.popularPosts {
+    padding: 50px 0;
+    text-align: center;
+
+    .title {
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+
+    .cardWrapper {
+        margin-bottom: 20px;
+    }
+
+    .card {
+        border: 1px dashed #ccc;
+        padding: 20px;
+        text-align: center;
+
+        .image {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 15px;
+        }
+
+        .postTitle {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .description {
+            font-size: 14px;
+            color: #777;
+            margin-bottom: 15px;
+        }
+
+        .readMore {
+            background-color: black;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+        }
+    }
+}
