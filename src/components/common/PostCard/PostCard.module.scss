@@ -1,0 +1,53 @@
+.postCard {
+    border: 2px dashed #d6b6fa;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+
+    &:hover {
+        transform: scale(1.05);
+    }
+
+    .cardImage {
+        max-height: 200px;
+        object-fit: cover;
+    }
+
+    .cardTitle {
+        font-size: 1.2rem;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .cardText {
+        color: #555;
+        text-align: center;
+    }
+
+    .readMore {
+        display: block;
+        margin: 10px auto 0;
+        background-color: #000;
+        color: #fff;
+        border: none;
+
+        &:hover {
+            background-color: #333;
+        }
+    }
+
+    &.horizontal {
+        display: flex;
+        flex-direction: row;
+
+        .cardImage {
+            max-height: 150px;
+            max-width: 150px;
+        }
+
+        .cardBody {
+            flex: 1;
+            padding-left: 20px;
+        }
+    }
+}

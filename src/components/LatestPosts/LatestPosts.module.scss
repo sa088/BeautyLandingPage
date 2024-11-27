@@ -1,0 +1,21 @@
+.latestSection {
+    text-align: center;
+
+    .sectionTitle {
+        font-size: 2rem;
+        font-weight: bold;
+        margin-bottom: 40px;
+    }
+
+    .viewAll {
+        margin-top: 20px;
+        padding: 10px 20px;
+        background-color: #000;
+        color: #fff;
+        border: none;
+
+        &:hover {
+            background-color: #333;
+        }
+    }
+}

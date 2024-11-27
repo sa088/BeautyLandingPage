@@ -5,20 +5,20 @@ import styles from "./PopularPosts.module.scss";
 const posts = [
     {
         id: 1,
-        image: "path-to-image1.jpg",
+        image: require("../../assets/Images/PostImg01.png"),
         title: "HOME-MADE SCRUBS - ORGANIC",
         description: "Lorem ipsum dolor sit amet consectetur. Est ipsum malesuada tincidunt pretium at...",
     },
     {
         id: 2,
-        image: "path-to-image2.jpg",
+        image: require("../../assets/Images/PostImg02.png"),
         title: "HOME-MADE SCRUBS - ORGANIC",
         description: "Lorem ipsum dolor sit amet consectetur. Est ipsum malesuada tincidunt pretium at...",
     },
     {
         id: 3,
-        image: "path-to-image3.jpg",
-        title: "fasfaffas",
+        image: require("../../assets/Images/PostImg03.png"),
+        title: "HOME-MADE SCRUBS - ORGANIC",
         description: "Lorem ipsum dolor sit amet consectetur. Est ipsum malesuada tincidunt pretium at...",
     },
 ];

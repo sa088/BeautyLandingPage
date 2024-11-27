@@ -10,24 +10,29 @@
         text-align: center;
         background: rgba(255, 255, 255, 0.8784313725);
         padding: 60px;
-        width: 25%;
+        width: 35%;
 
         p {
-            font-size: 14px;
+            font-size: 10px;
             margin-bottom: 6px;
             letter-spacing: 4px;
         }
 
-        h1 {
-            font-size: 36px;
+        h4 {
+            font-size: 24px;
             margin-bottom: 16px;
             font-weight: 300;
         }
 
         .readMoreBtn {
-            background-color: #fff;
+            font-family: Sansation Light;
+            background-color: #000000;
+            color: #FFFFFF;
             border: none;
+            border-radius: 0;
+            font-size: 12px;
             padding: 10px 20px;
+            letter-spacing: 2px;
         }
     }
 }
